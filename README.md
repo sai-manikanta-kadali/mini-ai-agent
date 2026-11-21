@@ -1,5 +1,9 @@
 # python-mini-ai-agent
+
+**🚀 Live Demo:** [Open Python Mini AI Agent](https://python-mini-ai-agent-rwkwdd7fjvalx56cnohbgq.streamlit.app/)
+
 My beginner ai project with the calculator tool and email and the web search tool
+
 # Python Mini AI Agent 🤖
 
 --- About
