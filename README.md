@@ -1,43 +1,45 @@
-# python-mini-ai-agent
+# Python Mini AI Agent
 
-**🚀 Live Demo:** [Open Python Mini AI Agent](https://python-mini-ai-agent-rwkwdd7fjvalx56cnohbgq.streamlit.app/)
+**🚀 Live Demo:** [Try the Mini AI Agent](https://python-mini-ai-agent-rwkwdd7fjvalx56cnohbgq.streamlit.app/)
 
-My beginner ai project with the calculator tool and email and the web search tool
+A beginner-friendly Python project that demonstrates simple tool routing: read a user request, identify the intended tool, and execute the matching Python function.
 
-# Python Mini AI Agent 🤖
+## Features
 
---- About
-This is my beginner-level Python Mini AI Agent project. I built it while learning Python and AI Agent fundamentals.
+- Calculator tool for basic addition.
+- DuckDuckGo web search integration.
+- Email tool demonstration (simulation only; it does not send email).
+- Keyword/condition-based tool routing.
 
---- Features
-- Calculator Tool:** Performs addition of two numbers.
-- Web Search Tool:** Searches the internet using DuckDuckGo.
-- Email Tool:** Demonstrates email tool execution (simulation only).
-- Tool Routing:** Selects a tool based on user request using Python conditions.
+## Technology
 
---- Technologies Used
-- Python
-- Regular Expressions (`re`)
-- DuckDuckGo Search
-- Google Colab
+Python · Regular Expressions · DuckDuckGo Search · Streamlit
 
---- How It Works
-The user enters a request. The mini agent checks the request using keyword-based conditions and executes the appropriate tool.
+## How it works
 
---- Limitations
-- Tool selection uses keyword-based routing, not an LLM.
-- Email tool is a demo and does not send real emails.
+1. The user enters a request.
+2. The program checks the request against supported keywords and conditions.
+3. The matching tool function runs.
+4. The tool output is displayed.
 
---- What I Learned
-- Python functions
-- Parameters and arguments
-- Conditional statements
-- Regular expressions
-- Type conversion
-- Internet search integration
-- Basic AI Agent tool routing
+## Run locally
 
---- Author
-B.Tech Computer Science Engineering Student
+```bash
+git clone https://github.com/sai-manikanta-kadali/mini-ai-agent.git
+cd mini-ai-agent
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-This is my first hands-on project in my AI learning journey 🚀
+Check the repository for the current application entry point and dependency file. If the project is run from a notebook, open the notebook in Google Colab instead.
+
+## Limitations
+
+- Tool routing is keyword-based; it is not an LLM planner.
+- The email tool is a simulation and does not send real messages.
+- The calculator currently demonstrates addition only.
+- This is a beginner learning project, not a production autonomous agent.
+
+---
+
+A first hands-on step toward understanding Python tools and agent-style workflows.
